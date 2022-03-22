@@ -2,7 +2,6 @@ let player, winner = null;
 let selectedPlayer = document.getElementById('selected-player');
 let selectedWinner = document.getElementById('selected-winner');
 let squares = document.getElementsByClassName("square")
-console.log(squares)
 
 switchPlayer('X');
 
